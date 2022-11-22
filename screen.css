@@ -1,0 +1,154 @@
+/* "Миний кодын эхлэл" накатоны дасгал хуудаст зориулсан
+Stylesheet */
+
+
+* { padding: 0; margin: 0; }
+body {
+background-color: #8c8c8c; /* Дэвсгэр өнгө */
+color: white; /* Бичгийн өнгө */
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: small; /* Үсгийн хэмжээ */
+}
+#wrapper {
+background-color: white;
+color: black;
+width: 720px;
+margin-top: 10px;
+margin-right: auto; /* Баруун зай */
+margin-bottom: 10px;
+margin-left: auto; /* Зүүн зай */ 
+}
+#headersection {
+color: black;
+background-color: #f3c600;
+background-image: url(/03_03/anime_img.jpg);
+background-repeat: repeat-y;
+background-position: center;
+background-attachment: fixed;
+padding-top: 10px;
+padding-right: 20px;
+padding-bottom: 0;
+padding-left: 20px;
+}
+#headersection p {
+padding: 5px 0 5px 0;
+margin-bottom: 0;
+}
+#navisection {
+text-align: right; /* Баруун талд шахсан */
+color: black;
+background: #ffe574 url(/03_03/anime_img.jpg) repeat-y top
+left;
+padding: 5px 20px 5px 20px;
+border-bottom: 1px solid #8c8c8c;
+padding-top: 5px ;
+padding-right: 20px;
+padding-bottom: 5px;
+padding-left: 20px;
+}
+#navisection a { color:black;
+background-color: #ffeda0;
+padding: 4px 8px 4px 8px;
+border: 1px solid #8c8c8c;
+}
+#contactpage #navi02 a {
+color: black;
+background-color: white;
+border-bottom-color: white;
+}
+
+#navisection a:hover,
+#navisection a:focus {
+color: black;
+background-color: white;
+border-bottom-color: white;
+}
+#navisection a:active {
+color: black;
+background-color: rgb(209, 31, 171);
+border-bottom-color: white;
+}
+#navisection ul { 
+margin-bottom: 0;
+}
+#navisection li {
+display: inline;
+list-style-type: none;
+margin: 0 /* баруун талд 10px, бусдаар 0 */
+}
+
+
+#textsection {
+padding-top: 20px ;
+padding-right: 10px;
+padding-bottom: 20px;
+padding-left: 20px;
+}
+#footsection {
+padding-top: 10px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+border-top: 1px solid #8c8c8c;
+margin-top: 0;
+}
+
+h1 { font-size: 150%; }
+h2 { font-size: 130%; }
+address {
+text-align: center; /* төвд байрлуулах */
+font-size: 80%; /* Үлдэснээс арай жижигхэн */
+font-style: italic; /* Энгийн бичиг, налуу биш */
+letter-spacing: 2px; /* Үсэг хоорондын зай */
+line-height: 1.5; /* Мөр хоорондын зай, нэгж өгөөгүй */
+font-weight: bold;
+
+}    
+a { text-decoration: none; } 
+a:link { color: #d90000; }
+a:visited { color: #cc6666; }
+a:hover,
+a:focus {
+border-bottom: 1px solid #d90000;
+}
+a:active {
+color: white;
+background-color: #d90000;
+}
+div#textsection a {
+border-bottom: 1px dotted #cc0000;
+}
+div#textsection a:hover,
+div#textsection a:focus {
+border-bottom: 1px solid #d90000;
+}
+div#headsection p span {
+color: #d90000; /* Бичгийн өнгө */
+}
+.infobox {
+color : black;
+background-color: #8c8c8c;
+border: 3px solid #ecf7dd;
+}
+
+/* Доод талын зай */
+h2, p, ul, ol { margin-bottom: 1em; }
+/* Зайгүй давхар жагсаалт */
+ul ul { margin-bottom: 0; }
+/* Зүүн талын зай */
+li { margin-left: 1em; }
+div#footsection {
+padding-top: 10px; /* Хүрээний шугамын доор */
+border-top: 1px solid #8c8c8c; /* Дээд талын шулуун */
+margin-top: 20px; /* Шугамын дээд тал */
+}
+img#logo {
+background-color: white;
+padding: 10px;
+border: 10px solid #d9d9d9;
+}
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+

@@ -1,0 +1,95 @@
+/* NAGIVATION BAR CSS */
+
+#navbar ul { 
+margin: 0; 
+padding: 5px; 
+list-style-type: none; 
+text-align: center; 
+background-color: #000; 
+} 
+
+#navbar ul li {  
+display: inline; 
+} 
+
+#navbar ul li a { 
+text-decoration: none; 
+padding: .2em 1em; 
+color: #fff; 
+background-color: #000; 
+} 
+
+#navbar ul li a:hover { 
+color: #000; 
+background-color: #fff; 
+}
+/*        HOME PAGE MAIN CSS */
+#mainhead-text {
+display: flex;
+justify-content: center;
+align-items: center;                        
+padding-top: auto;
+margin: auto;
+color: aliceblue;
+background-image: url(./images/mainpic.jpg);
+width: 100%;
+height: 60vh;
+
+}
+.main2 {
+color:white ;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+width: 100vw;
+text-align: center;
+
+}
+section {
+box-sizing: border-box;
+border: 1px solid blue;
+width: 100%;
+float: left;
+}
+.left {
+float: left;
+background: white;
+width: 200px;
+}
+#container {
+display: flex;
+justify-content: space-evenly;
+}
+
+#about {
+background-color: #000;
+color: white;
+border: 2px #7b5c625d solid;
+text-align: center;
+}
+#about a {
+background-color: #fff;
+border: none;
+color: #333;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+}   
+form {
+text-align: center;
+
+}
+.button {
+background-color: #cdb79e;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+
+}  
+
+
